@@ -1,4 +1,4 @@
-import restaurantImage from './restaurant-image.jpg'
+import restaurantImage from './assets/restaurant-image.jpg'
 
 function renderHome() {
     const home = document.createElement('div');
