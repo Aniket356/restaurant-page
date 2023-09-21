@@ -1,4 +1,9 @@
 import chickenImage from './assets/grilled-chicken.jpg';
+import fondantImage from './assets/fondant.jpg';
+import ravioliImage from './assets/ravioli.jpg';
+import risottoImage from './assets/risotto.jpg';
+import tacosImage from './assets/tacos.jpg';
+import tunaImage from './assets/tuna-salad.jpg';
 
 const Dish = (dishName, description, image) => {
     return {
@@ -17,27 +22,27 @@ const menu = [
     Dish(
         "Gourmet Mushroom Risotto",
         "Creamy Arborio rice cooked with a medley of gourmet mushrooms, white wine, and Parmesan cheese, creating a rich and comforting dish that's a celebration of earthy flavors.",
-        chickenImage
+        risottoImage
     ),
     Dish(
         "Seared Sesame Tuna Salad",
         "Sesame-crusted Ahi tuna seared to a delicate rare, placed atop a bed of mixed greens, julienned vegetables, and a zesty ginger soy dressing.",
-        chickenImage
+        tunaImage
     ),
     Dish(
         "Butternut Squash Ravioli",
         "Homemade ravioli filled with roasted butternut squash and ricotta cheese, drizzled with sage-infused brown butter and garnished with toasted pine nuts.",
-        chickenImage
+        ravioliImage
     ),
     Dish(
         "Braised Short Rib Tacos",
         "Slow-cooked beef short ribs shredded and nestled in warm corn tortillas, topped with pickled red onions, fresh cilantro, and a tangy avocado crema.",
-        chickenImage
+        tacosImage
     ),
     Dish(
         "Decadent Chocolate Fondant",
         "Indulge in a warm and gooey chocolate fondant dessert, served with a scoop of vanilla bean ice cream and a drizzle of raspberry coulis.",
-        chickenImage
+        fondantImage
     )
 ]
 

@@ -112,3 +112,7 @@ body {
 .contact-info .section {
     margin: 1.4rem;
 }
+
+.contact-info .section h2 {
+    margin-bottom: 0.7rem;
+}
